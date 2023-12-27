@@ -22,10 +22,12 @@ function App() {
 
   return (
     <div className="container">
+    <div className="hello">
       <h1>
         Hello {contact.fName} {contact.lName}
       </h1>
       <p>{contact.email}</p>
+      </div>
       <form>
         <input
           onChange={handleChange}
